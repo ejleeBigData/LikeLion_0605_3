@@ -7,8 +7,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("---- 학생 정보 출력 ----");
+        System.out.println("**** 학생 정보 출력 ****");
 
-        Main.printStudent("정국", 35);
+        Main.printStudent("one", 35);
+        printStudent("two", 22);
+        printStudent("three", 55);
     }
 }
