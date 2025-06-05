@@ -1,9 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        char asciiChar = 'A';
+        char asciiChar = 'b';
 
+        System.out.println("문자열 : " + asciiChar);
 
-        System.out.println(asciiChar);
+        int asciiCode = (int) asciiChar ;
+        System.out.println("문자열 : " + asciiCode);
     }
 }
